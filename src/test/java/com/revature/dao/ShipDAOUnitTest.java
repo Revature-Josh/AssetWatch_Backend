@@ -29,6 +29,7 @@ import com.revature.template.ShipTemplate;
 })
 @WebAppConfiguration
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
+@DirtiesContext(classMode = ClassMode.BEFORE_CLASS)
 class ShipDAOUnitTest {
 
 	@Autowired
